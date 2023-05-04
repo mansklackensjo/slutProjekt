@@ -14,3 +14,5 @@ använde även photoshop för att göra´loggan transperant.
 2023-04-26: Gjorde klart wireframesen och har motiverat färgval och upplägg av sidan. Snart ska sidan påbörjas!!
 
 2023-05-02: Påbörjat med html strukturen för att kunna få grunden för webbsidan.
+
+2023-05-04: HTML index sidan är klar och planerat lite hur strukturen ska funka och hur javascript ska implementers i webbsidan.
