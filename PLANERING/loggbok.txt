@@ -16,3 +16,5 @@ använde även photoshop för att göra´loggan transperant.
 2023-05-02: Påbörjat med html strukturen för att kunna få grunden för webbsidan.
 
 2023-05-04: HTML index sidan är klar och planerat lite hur strukturen ska funka och hur javascript ska implementers i webbsidan.
+
+2023-05-05: Börjat designa förstasidan med css.

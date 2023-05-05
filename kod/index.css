@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+* {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "nav main main" "nav main main" "nav footer footer";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #9D2121;
+}
+
+#mainArea {
+    grid-area: main;
+    background-image: url();
+}
