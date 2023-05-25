@@ -20,3 +20,6 @@ använde även photoshop för att göra´loggan transperant.
 2023-05-05: Börjat designa förstasidan med css.
 
 2023-05-12: Fixar med layouten för hemsidan så att det nästan bara ska vara att byta ut innehåll på de andra sidorna sen iprincip.
+
+2023-05-25: Jag tog hela natten att göra klart sidan. All layout och länkar mellan sidor mm är löst. 
+Det jag har kvar är att lägga in en graf ifrån ett bibliotek jag hittade D3.js. Kanske kolla över om det behövs lägga till någon mer javascript del.

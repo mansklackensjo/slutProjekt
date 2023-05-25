@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/omOss.css">
+    <title>Forserums El AB</title>
+</head>
+
+<body>
+    <button id="">Tog <br> Nav</button>
+    <div id="container">
+        <nav>
+
+            <a href="index.html" class="navItem">
+                <p>START</p>
+            </a>
+            <a href="refProj.html" class="navItem">
+                <p>REFERENS <br> PROJEKT</p>
+            </a>
+            <a href="" class="navItem" id="alarmLink">
+                <p>BOSTÄDER</p>
+            </a>
+            <a href="" class="navItem">
+                <p>KOMMERSIELLT</p>
+            </a>
+            <a href="omOss.html" class="navItem">
+                <p>OM OSS</p>
+            </a>
+        </nav>
+        <div id="mainArea">
+            <header>
+                <h1>Våra Anställda</h1>
+                <p>På Forserums EL AB är vi 4 anställda och en lärling. Vi söker en till inom kort. <br>En driven och motiverad person som vet vad hen vill. <br><br> Här på sidan listar vi de viktigaste om du vill ha tag i oss <br><br> Exempel på dessa är...</p>
+
+                <h2>Kontakt</h2>
+                <p>Gregvard Kabanoss - Tel: 0752396477 <br><br> Gregor Krinstenssen - Tel: 0704138557</p>
+
+                
+            </header>
+            <aside>
+                
+                    <h2>Gregvard</h2>
+                    
+                    <img src="../bilder/greg.jpg" alt="gregvard">
+                
+                
+                    <h2>Gregor</h2>
+                    
+                    <img src="../bilder/greg2.jpg" alt="gregor">
+                
+            </aside>
+        </div>
+        <footer>
+            <div>
+                <a href="">
+                    <img src="../bilder/instagramIcon.png" alt="instagram logo">
+                </a>
+                <a href="">
+                    <img src="../bilder/linkedInIcon.png" alt="linked in logo">
+                </a>
+                <a href="">
+                    <img src="../bilder/facebookIcon.png" alt="facebook logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function displayAlarmMessage() {
+            alert("Denna ruta är under utveckling");
+
+        }
+
+        let alarmLink = document.getElementById("alarmLink");
+        alarmLink.addEventListener("click", function(e) {
+            e.preventDefault();
+            displayAlarmMessage()
+        })
+
+    </script>
+
+</body>
+
+</html>

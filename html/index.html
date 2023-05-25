@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>Forserums El AB</title>
+</head>
+
+<body>
+    <button id="">Tog <br> Nav</button>
+    <div id="container">
+        <nav>
+
+            <a href="index.html" class="navItem">
+                <p>START</p>
+            </a>
+            <a href="refProj.html" class="navItem">
+                <p>REFERENS <br> PROJEKT</p>
+            </a>
+            <a href="" class="navItem" id="alarmLink">
+                <p>BOSTÄDER</p>
+            </a>
+            <a href="" class="navItem">
+                <p>KOMMERSIELLT</p>
+            </a>
+            <a href="omOss.html" class="navItem">
+                <p>OM OSS</p>
+            </a>
+        </nav>
+        <div id="mainArea">
+            <header>
+                <h1>Forserums El AB</h1>
+                <p>Vi tror på bra kunduppslutning  för att <br> förverkliga era drömmar. <br> <br> Allt från mysig ytterbelysning på altanen till fler väggutag i vardagsrummet. </p>
+            </header>
+            <aside>
+                <p>Byggnaden i bakgrunden är vårat nybyggda lager <br> som du hittar på adressen Klackarp 5.</p>
+            </aside>
+        </div>
+        <footer>
+            <div>
+                <a href="">
+                    <img src="../bilder/instagramIcon.png" alt="instagram logo">
+                </a>
+                <a href="">
+                    <img src="../bilder/linkedInIcon.png" alt="linked in logo">
+                </a>
+                <a href="">
+                    <img src="../bilder/facebookIcon.png" alt="facebook logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function displayAlarmMessage() {
+            alert("Denna ruta är under utveckling");
+
+        }
+
+        let alarmLink = document.getElementById("alarmLink");
+        alarmLink.addEventListener("click", function(e) {
+            e.preventDefault();
+            displayAlarmMessage()
+        })
+
+    </script>
+
+</body>
+
+</html>
