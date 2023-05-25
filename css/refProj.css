@@ -69,10 +69,11 @@ nav {
 
 #my_dataviz {
     height: 40%;
+    width: 60%;
 }
 
 #mainArea > * {
-    background-color: #4a4a4ac7 ;
+    background-color: #4a4a4af5 ;
 }
 
 header {
@@ -86,11 +87,12 @@ header {
     
     
     
+    
 }
 
 header h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 2.5rem;
     text-align: center;
@@ -101,10 +103,12 @@ header h1 {
 
 header h2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-size: 1.5rem;
     text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 header p {
@@ -114,7 +118,7 @@ header p {
     flex-direction: column;
     justify-content: flex-start;
     font-size: 1.2rem;
-    text-align: center;
+    
     height: 35%;
 }
 
@@ -175,7 +179,8 @@ a img {
         display: grid;
         grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
         grid-template-columns: 1fr 2fr 2fr;
-        grid-template-rows: 30% 65% 5%;
+        grid-template-rows: 30% auto 5%;
+        width: 100%;
     }
 
     header{
@@ -198,6 +203,8 @@ a img {
     header p {
         height: auto;
     }
+
+    
 
     
 }

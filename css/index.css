@@ -154,6 +154,7 @@ a img {
         grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
         grid-template-columns: 1fr 2fr 2fr;
         grid-template-rows: 30% 65% 5%;
+        width: 100%;
     }
 
     header{
